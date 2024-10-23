@@ -1,26 +1,27 @@
-# python-zajecia1
+# Python Zajęcia- pętle
 Pętle w Pythonie Starter Pack dla Thinking Zone
-# Loops
+# Pętelki
 
-In programming, a **loop** means repeating something multiple times.
-There are different kinds of loops:
+W programowaniu, pętla oznacza powtarzanie czegoś wielokrotnie.
+Jest ich kilka rodzajów (W zasadzie to więcej, ale na razie ćśś)
 
-- [While loops](#while-loops) repeat something while a condition is true.
-- [Until loops](#until-loops) repeat something while a condition is false.
-- [For loops](#for-loops) repeat something for each element of something.
+- [While loops](#while-loops) Powtarzaj coś, dopóki warunek jest spełniony (jest prawdą).
+- [Until loops](#until-loops) Powtarzaj coś, dopóki warunek nie jest spełniony (jest nieprawdą).
+- [For loops](#for-loops) Powtarzaj coś dla każdego elementu lub określoną ilość razy.
+- 
 
-We'll talk about all of these in this tutorial.
+Pogadamy sobie dzisiaj głównie o nich, w kółko (hehe).
 
-## While loops
+## Pętle While
 
-Now we know how if statements work.
+To poniżej to prosta instrukcja **if** (jeżeli coś to zrób inne coś).
 
 ```python
-its_raining = True
-if its_raining:
-    print("Oh crap, it's raining!")
+czy_pada = True
+if czy_pada:
+    print("Jasny Gwint, pada!")
 ```
-
+Pętla While jest w zasadzie podobna do instrukcji **if**
 While loops are really similar to if statements.
 
 ```python
