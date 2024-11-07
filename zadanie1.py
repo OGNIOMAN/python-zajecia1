@@ -1,1 +1,1 @@
-
+print("POZDRAWIAM Z RODZINKĄ")
